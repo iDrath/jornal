@@ -47,7 +47,19 @@
 			<div class="collapse navbar-collapse" id="navbarTogglerDemo03">
 				<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
 				<li class="nav-item">
-					<a class="nav-link" href="#">Link</a>
+				<a class="nav-link" href="#"><span class="glyphicon glyphicon-home"></span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Link1</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Link2</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Link3</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Link4</a>
 				</li>
 				</ul>
 				<form class="form-inline my-2 my-lg-0">
