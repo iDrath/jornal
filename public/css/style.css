@@ -38,3 +38,26 @@ footer{
   padding: 0px 0px 0px 5%;
 }
 
+.glyphicon-home:before{
+  content:"\e021";
+}
+
+.glyphicon{
+  position:relative;
+  top:1px;display:inline-block;
+  font-family:'Glyphicons Halflings';
+  font-style:normal;
+  font-weight:400;
+  line-height:1;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+span.icon:before {
+  font-family: 'Glyphicons Halflings';
+  content: "\f015";
+}
+
+span.icon {
+  font-family: 'Glyphicons Halflings';
+}
