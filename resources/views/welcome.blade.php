@@ -19,5 +19,4 @@
 
 @section('footer')
     @parent
-    <p>This is appended to the footer sidebar.</p>
 @stop
