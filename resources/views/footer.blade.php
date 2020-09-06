@@ -11,8 +11,7 @@
     <img src="/images/extra/logo.png" width="70%">
     </div>
     <div class="footer-section contact-form">
-    <a class="twitter-timeline" href="https://twitter.com/SocBioquimica?ref_src=twsrc%5Etfw">Tweets by SocBioquimica</a> 
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <a >Tweets by SocBioquimica</a> 
     </div>
   </div>
   <div class="footer-bottom">
