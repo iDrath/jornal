@@ -2,13 +2,16 @@ body, html {
   height: 100%;
   min-height:100%; 
     position:relative; 
-    padding-bottom:[footer-height] 
+    padding-bottom:[footer-height];
+    min-width: 70%;
   
 }
 .container {
-  padding: 0 0 0 0;
+  padding: 0 0 0 0 !important;
   box-shadow: 0px 0px 19px 9px rgba(117,117,117,0.92);
+
 }
+
 .bg {
   /* The image used */
   background-image: url("https://img.freepik.com/free-vector/white-abstract-background-3d-paper-style_23-2148399818.jpg?size=626&ext=jpg");
@@ -40,7 +43,7 @@ footer{
   background: #303036;
   color: #d3d3d3;
   height: 400px;
-  position: absolute; 
+  position: relative; 
     left: 0 ; right: 0; bottom: 0; 
     height:[footer-height] 
 }
