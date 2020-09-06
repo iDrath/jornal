@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr" class="bg">
+<html lang="en" class="bg">
 	<head>
 		<meta charset="utf-8">
 		<title>The Biochemistry Magazine</title>
