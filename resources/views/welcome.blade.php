@@ -14,7 +14,6 @@
 
 @section('body')
   @parent
-    <p>This is my body content.</p>
 @stop
 
 @section('footer')

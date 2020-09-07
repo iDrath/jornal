@@ -7,7 +7,7 @@
 
 		@section('body')
 			
-
+		<!--START SLIDER -->
 
 		<div id="demo" class="carousel slide" data-ride="carousel">
 			<ul class="carousel-indicators">
@@ -47,9 +47,54 @@
 		</div>
 
 
+		<!--END SLIDER -->
+
+
+		
+</br></br>
+
+		
+			<div class="row">
+				<div class="col-8 news">
+					<p class="publi"> Publicaciones</p>
+					<hr>
+					<div class="col-12">
+						
+						<div class="col-4">
+								<img src="/images/extra/ny.jpg" alt="New York" class="float-left mr-2 img-fluid">
+								</div>
+						<div class="col-14">
+								<h2>Heading</h2>
+								<p class="text-justify">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+								<p align="right"><a class="btn btn-primary" href="#" role="button">View details »</a></p>
+								</div>
+								<hr>
+					</div>
+					<div class="col-12">
+						
+						<div class="col-4">
+								<img src="/images/extra/la.jpg" alt="New York" class="float-left mr-2 img-fluid">
+								</div>
+						<div class="col-14">
+								<h2>Heading</h2>
+								<p class="text-justify">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+								<p align="right"><a class="btn btn-primary" href="#" role="button">View details »</a></p>
+								</div>
+								<hr>
+					</div>
+				</div>
+
+				<div class="col-2 calendar">
+					Variable width content
+					3 of 3
+				</div>
+			</div>
+
 
 		@show
 
+		</br></br>
 
 
 	</body>
+

@@ -1,15 +1,33 @@
-body, html {
+html {
   height: 100%;
   min-height:100%; 
     position:relative; 
     padding-bottom:[footer-height];
-    min-width: 70%;
-  
+    min-width: 80%;
+
 }
+
 .container {
   padding: 0 0 0 0 !important;
   box-shadow: 0px 0px 19px 9px rgba(117,117,117,0.92);
+  min-height:100%; 
+  min-width: 70%;
+}
 
+.publi{
+  padding-left: 4%;
+  display: block;
+  font-size: 2.5em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: normal;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  display: none;
 }
 
 .bg {
@@ -38,6 +56,9 @@ body, html {
 .menunav{
   padding: 0px 50px 0px 5%;
 }
+
+
+
 
 footer{
   background: #303036;
@@ -113,3 +134,5 @@ span.icon:before {
 span.icon {
   font-family: 'Glyphicons Halflings';
 }
+
+
