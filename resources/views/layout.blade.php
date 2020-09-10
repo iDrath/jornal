@@ -17,14 +17,17 @@
 			</ul>
 			<div class="carousel-inner">
 				<div class="carousel-item active">
-				<img src="/images/extra/la.jpg" alt="Los Angeles" width="1100" height="500">
+				<img src="/images/extra/b1.jpg" alt="SARS-CoV-2" width="1100" height="500">
 				<div class="carousel-caption">
-					<h3>Los Angeles</h3>
-					<p>We had such a great time in LA!</p>
+					<h3>SARS-CoV-2</h3>
+					<p>Computer-designed proteins can protect lab-grown human cells from SARS-CoV-2</p>
+					<a type="button" class="btn btn-info" 
+						href="https://www.news-medical.net/news/20200910/Computer-designed-proteins-can-protect-lab-grown-human-cells-from-SARS-CoV-2.aspx"
+						target="_blank">Leer Mas...</a>
 				</div>   
 				</div>
 				<div class="carousel-item">
-				<img src="/images/extra/chicago.jpg" alt="Chicago" width="1100" height="500">
+				<img src="/images/extra/b2.jpg" alt="Chicago" width="1100" height="500">
 				<div class="carousel-caption">
 					<h3>Chicago</h3>
 					<p>Thank you, Chicago!</p>
@@ -65,8 +68,10 @@
 						</div>
 						<div class="col-14">
 							<h2>Heading</h2>
-							<p class="text-justify">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-							<p align="right"><a class="btn btn-primary" href="#" role="button">View details »</a></p>
+								<div id="read">
+									<p class="text-justify">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+								</div>
+								<p align="right"><a class="btn btn-primary" href="#" role="button">View details »</a></p>
 						</div>
 								<hr>
 					</div>
@@ -75,9 +80,10 @@
 						<div class="col-4">
 							<img src="/images/extra/la.jpg" alt="New York" class="float-left mr-2 img-fluid">
 						</div>
-						<div class="col-14">
+						<div class="col-14" id="read">
 							<h2>Heading</h2>
-							<p class="text-justify">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+							<p class="text-justify">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, 
+								tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
 							<p align="right"><a class="btn btn-primary" href="#" role="button">View details »</a></p>
 						</div>
 								<hr>
@@ -120,3 +126,7 @@
 
 	</body>
 
+	<script>
+	var myDiv = $('#read');
+myDiv.text(myDiv.text().substring(0,244))
+</script>
