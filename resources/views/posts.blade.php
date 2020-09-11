@@ -1,4 +1,5 @@
 @include('header')
+@section('title', 'Page Title') <!-- NO FUNCIONA!!!!!! -->
 
 <hr>
 </br></br>
@@ -57,7 +58,11 @@ Quisque eros quam, condimentum quis suscipit quis, condimentum quis purus. Mauri
 Vestibulum fringilla consequat augue vel porttitor. Nullam efficitur, ex eget ullamcorper blandit, dui urna luctus mi, sit amet iaculis augue odio et leo. Nunc quis venenatis turpis, placerat pretium elit. Morbi metus risus, varius at maximus sed, pretium non metus. Maecenas tincidunt, libero non lobortis mollis, purus purus feugiat elit, vitae fermentum ipsum massa ut metus. Cras vitae vestibulum nisi. Duis volutpat turpis dolor, a faucibus mi suscipit in. Pellentesque velit justo, pulvinar vel venenatis non, suscipit eu nulla. Aliquam porttitor, metus ut semper auctor, nisl mauris tristique eros, ut tempus arcu tortor vitae mauris. Aliquam facilisis, justo at dapibus condimentum, sem eros auctor dolor, vitae molestie ipsum nisl vel dui. Nullam nec dui sed mi fermentum bibendum. Suspendisse potenti. Curabitur id mauris ut est congue lobortis. Quisque sapien sapien, blandit et tortor ut, placerat ultrices sapien.
 
 Nunc vel efficitur mauris. Praesent ornare augue nec velit euismod lacinia. In hac habitasse platea dictumst. In mollis in orci sed molestie. Morbi congue vehicula dignissim. Sed ac tellus tincidunt, condimentum neque ut, scelerisque erat. Donec a nulla sit amet justo fermentum porttitor. Cras elementum fermentum dolor, vel ullamcorper ante volutpat quis. Mauris tincidunt, tellus ac venenatis auctor, justo sem tristique odio, ac dapibus ipsum tortor non libero.
-	</div>
+
+</br></br>
+<p><em>Autor:</em></p>
+</div>
+	
 </div>
 
 
