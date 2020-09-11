@@ -1,11 +1,4 @@
-
-
-
-
-	<body class="container">
-
-
-		@section('body')
+@include('header')
 			
 		<!--START SLIDER -->
 
@@ -119,14 +112,19 @@
 			</div>
 
 
-		@show
 
 		</br></br>
 
 
-	</body>
+
+
+	
+
 
 	<script>
 	var myDiv = $('#read');
 myDiv.text(myDiv.text().substring(0,244))
 </script>
+
+
+@include('footer')

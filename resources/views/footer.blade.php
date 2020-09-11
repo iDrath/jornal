@@ -1,3 +1,7 @@
+  
+  
+  
+  </div>
   @section('footer')
 <!-- Footer -->
 <footer>
