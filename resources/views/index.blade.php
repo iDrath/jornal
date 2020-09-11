@@ -1,4 +1,6 @@
-@include('header')
+@extends("layout")
+
+@section('content')
 			
 		<!--START SLIDER -->
 
@@ -127,4 +129,4 @@ myDiv.text(myDiv.text().substring(0,244))
 </script>
 
 
-@include('footer')
+@stop

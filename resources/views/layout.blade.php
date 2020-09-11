@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+  
+  <!DOCTYPE html>
 <html lang="en" class="bg">
 	<head>
 		<meta charset="utf-8">
@@ -12,7 +13,7 @@
 
 
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-<link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
 
 
 
@@ -24,7 +25,6 @@
 
 
 <header>
-	@section('header')
 		<div class="header">
 			<nav class="navbar navbar-expand-sm navbar-light bg-light">
 				<div class="menurrss collapse navbar-collapse">
@@ -80,5 +80,40 @@
 		</nav>
 	
 </header>
-@show
 <body class="container">
+
+
+
+    @yield('content')
+
+
+
+  
+  </body>
+
+<!-- Footer -->
+<footer>
+
+<div class="footer"> 
+  <div class="footer-content">
+    <div class="footer-section about">
+    <img src="/images/extra/logo.png" width="70%">
+    </div>
+    <div class="footer-section links">
+    <img src="/images/extra/logo.png" width="70%">
+    </div>
+    <div class="footer-section contact-form">
+    <a >Tweets by SocBioquimica</a> 
+    </div>
+  </div>
+  <div class="footer-bottom">
+    &copy; 2020 Copyright: <a href="https://github.com/iDrath" target="_blank"> iDrath<img src="/images/extra/icono.png" width="3%"></a>
+  </div>
+</div>
+
+</footer>
+<!-- Footer -->
+
+
+
+  </html>

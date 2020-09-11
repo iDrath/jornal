@@ -1,6 +1,9 @@
-@include('header')
-@section('title', 'Page Title') <!-- NO FUNCIONA!!!!!! -->
+@extends("layout")
 
+@section('titulo', 'Articulos') 
+
+
+@section('content')
 <hr>
 </br></br>
 <div class="row justify-content-md-center">
@@ -79,6 +82,4 @@ Nunc vel efficitur mauris. Praesent ornare augue nec velit euismod lacinia. In h
 
 
 
-
-
-@include('footer')
+@stop
