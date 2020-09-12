@@ -12,8 +12,9 @@
 		<h3>Articulos disponibles</h3>
 		<ul>
 			@foreach($articulos as $articulo)
-			<li>{{ $articulo -> titulo }}</li>
+			<li><a href="/articulos/{{ $articulo -> id }}">{{ $articulo -> titulo }}</a></li>
 			@endforeach
+			<hr>
 		</ul>
 
 
@@ -33,8 +34,8 @@
 
 
 
-<!--Script unitario de test-->
+<!--Script unitario de test
 @section('scripts')
 <script>
 	alert('test')
-</script>
+</script>-->
