@@ -32,6 +32,7 @@ html {
   min-width: 70%;
 }
 
+
 .publi{
   padding-left: 4%;
   display: block;
@@ -153,4 +154,11 @@ span.icon {
   font-family: 'Glyphicons Halflings';
 }
 
+.imagenarticulo {
+  max-width: 60%;
+  object-fit: contain;
+  position: relative;
+  padding-right: 5%;
+  padding-bottom: 1%;
+}
 

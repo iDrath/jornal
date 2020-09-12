@@ -45,10 +45,12 @@
 		</div>
 
 
-		<!--END SLIDER -->
+		<!--END SLIDER 
 
-
-		
+<div class="col-4">
+							<img src="/images/extra/ny.jpg" alt="New York" class="float-left mr-2 img-fluid">
+						</div>
+		-->
 </br></br>
 
 		
@@ -56,60 +58,36 @@
 				<div class="col-8 news">
 					<p class="publi"> Publicaciones</p>
 					<hr>
+					@foreach($articulos as $articulo)
+					
+			
 					<div class="col-12">
-						
+					<!--IMAGEN AQUI-->
 						<div class="col-4">
-							<img src="/images/extra/ny.jpg" alt="New York" class="float-left mr-2 img-fluid">
+							<img src="{{ $articulo -> imagenportada }}" class="float-left imagenarticulo">
 						</div>
 						<div class="col-14">
-							<h2>Heading</h2>
+						<h2>{{ $articulo -> titulo }}</h2>
 								<div id="read">
-									<p class="text-justify">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+									<?php
+										$contenido = $articulo -> contenido ;
+										echo substr("{$contenido}...", 0,650);
+									?>
 								</div>
-								<p align="right"><a class="btn btn-primary" href="#" role="button">View details »</a></p>
+								<p align="right"><a class="btn btn-primary" href="/articulos/{{ $articulo -> id }}" role="button">Continuar leyendo»</a></p>
 						</div>
-								<hr>
+						<hr>
+					
 					</div>
-					<div class="col-12">
-						
-						<div class="col-4">
-							<img src="/images/extra/la.jpg" alt="New York" class="float-left mr-2 img-fluid">
-						</div>
-						<div class="col-14" id="read">
-							<h2>Heading</h2>
-							<p class="text-justify">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, 
-								tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
-							<p align="right"><a class="btn btn-primary" href="#" role="button">View details »</a></p>
-						</div>
-								<hr>
-					</div>
+					@endforeach
 				</div>
 				
 					
 
-					<div class="col-4 ">
+				<div class="col-4 ">
 								<img src="/images/extra/vbanner.jpg" alt="vertical banner" class="float-left col-sm-11 img-fluid">
 							
-					</div>
-
-
-
-
-
-
-				
-
-
-
-
-
-
-
-
-
-
-
-
+				</div>
 
 			</div>
 
@@ -117,16 +95,6 @@
 
 		</br></br>
 
-
-
-
-	
-
-
-	<script>
-	var myDiv = $('#read');
-myDiv.text(myDiv.text().substring(0,244))
-</script>
 
 
 @stop

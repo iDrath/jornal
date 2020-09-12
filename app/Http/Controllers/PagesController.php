@@ -3,11 +3,14 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Articulo;
 
 class PagesController extends Controller
 {
     public function index(){
-        return view('index');
+        $articulos = Articulo::orderBy('created_at', 'desc')->get();
+        return view('index',compact('articulos'));
+        
     }
     
 
