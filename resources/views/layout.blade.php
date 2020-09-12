@@ -117,3 +117,4 @@
 
 
   </html>
+@yield('scripts')

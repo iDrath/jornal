@@ -11,8 +11,6 @@ class PagesController extends Controller
     }
     
 
-    public function posts(){
-        return view('posts');
-    }
+    
 
 }
