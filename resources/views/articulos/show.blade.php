@@ -10,6 +10,8 @@
 	<div class="col-sm-8 text-justify">
 
 		<h3>{{ $articulo -> titulo }}</h3>
+		<p class="blockquote-footer">Categoria: <cite title="Source Title">{{ $articulo->categoria->nombre }}</cite></p>
+</br>
 		<p>
             {{ $articulo -> contenido}}
         </p>

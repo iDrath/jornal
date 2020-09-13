@@ -57,10 +57,10 @@
 			<div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
 				<ul class="navbar-nav">
 				<li class="nav-item">
-					<a class="nav-link" href="#"><span class="glyphicon glyphicon-home"></span></a>
+					<a class="nav-link" href="/"><span class="glyphicon glyphicon-home"></span></a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Features</a>
+					<a class="nav-link" href="/articulos/">Articulos</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="#">Pricing</a>
