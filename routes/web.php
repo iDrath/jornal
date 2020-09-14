@@ -18,3 +18,5 @@ Route::get('/', 'PagesController@index');
 Route::get('/articulos', 'ArticulosController@index');
 
 Route::get('/articulos/{id}', 'ArticulosController@show');
+
+Route::get('/admin', 'AdminController@index');
