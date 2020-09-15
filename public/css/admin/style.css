@@ -7,6 +7,9 @@ p{font-family: 'Poppins', sans-serif;
 	line-height: 1.7em;
 	color: #999;
 }
+html,body {
+	height: 100%!important;
+  }
 a,
 a:hover,
 a:focus{
@@ -45,7 +48,8 @@ a:focus{
     max-width: 250px;
     background: #7386D5;
     color: #fff;
-    transition: all 0.3s;
+	transition: all 0.3s;
+	min-height: 100vh;
 }
 #sidebar.active{
 	margin-left: -250px;
@@ -136,7 +140,11 @@ a.article:hover {
 	}
 }
 
-
+.form-control {
+	margin: auto;
+  width: 50%;
+  padding: 10px;
+}
 
 
 

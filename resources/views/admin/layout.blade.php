@@ -9,19 +9,21 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ asset('css/admin/style.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
+
 
     <title>bootstrap 4 sidebar</title>
   </head>
   <body>
    
     <div class="wrapper">
-   	  <nav id="sidebar">
+   	  <nav id="sidebar" class="h-100">
    		  <div class="sidebar-header">
-   			  <h3>BOOTSTRAP SIDEBAR</h3>
+         <img src="/images/extra/logo.png" width="100%">
    		  </div>
    		
    		
-   		  <ul class="list-unstyled components">
+   		  <ul class="list-unstyled components h-100">
    			  <li class="active">         
    				  <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Publicar <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-pencil-square" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
               <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456l-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
@@ -65,13 +67,13 @@
             <ul class="navbar-nav ml-auto">
               
               <li class="nav-item">
-                <a class="nav-link disabled" href="#">Disabled</a>
+                <a class="nav-link disabled">USUARIO</a>
               </li>
             </ul>
           </div>
         </nav>
   	
-  	
+  	    @yield('content')
          
 
         
@@ -89,19 +91,13 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    
-    <script>
-	    $(document).ready(function(){
-        $('#sidebarCollapse').on('click',function(){
-          $('#sidebar').toggleClass('active');
-        });
-		  });  
-	  </script>
+
+
     
     
     
     
-    @yield('content')
+
     
   </body>
 
@@ -114,3 +110,4 @@
 
 </html>
 
+@yield('scripts')

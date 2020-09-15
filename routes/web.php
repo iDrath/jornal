@@ -20,3 +20,8 @@ Route::get('/articulos', 'ArticulosController@index');
 Route::get('/articulos/{id}', 'ArticulosController@show');
 
 Route::get('/admin', 'AdminController@index');
+
+Route::group(['prefix' => 'laravel-filemanager', 'middleware' => ['web']], function () {
+    \UniSharp\LaravelFilemanager\Lfm::routes();
+});
+
